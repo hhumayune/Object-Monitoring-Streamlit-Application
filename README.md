@@ -30,3 +30,63 @@ An FPS counter is also provided to check performance.
 
 ### 7. Results
 User has the ability to save the results file after processing has finished.
+
+## Installation
+
+### Prerequisites
+- Python 3.12 installed
+- Terminal or command prompt access
+
+### Setup Virtual Environment
+
+1. Clone the repository or download the project files.
+
+2. Open a terminal or command prompt.
+
+3. Navigate to the project directory.
+
+### For Windows:
+
+#### Create a virtual environment
+python -m venv venv
+
+#### Activate the virtual environment
+venv\Scripts\activate
+
+#### Install dependencies
+pip install -r requirements.txt
+
+
+### For macOS/Linux:
+
+
+#### Create a virtual environment
+python3 -m venv venv
+
+#### Activate the virtual environment
+source venv/bin/activate
+
+#### Install dependencies
+pip install -r requirements.txt
+
+
+### Running the Application
+
+1. Ensure your virtual environment is activated.
+
+2. In the terminal or command prompt, run the Streamlit application using the following command:
+
+streamlit run main.py
+
+
+3. This command will open a new tab in your default web browser with the Streamlit application running.
+
+### Using the Application
+
+- Select the input type (Image, Video, Webcam) and configure other parameters (Model, Hardware, Tracker, Model Confidence) using the sidebar.
+- Upload an image or video file, or select webcam mode to start processing.
+- The application will display processed results (object detection and tracking) in real-time or after processing, depending on the input type.
+
+### Stopping the Application
+
+- To stop the application, use the "Stop Processing" button at the bottom of the sidebar.
