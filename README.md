@@ -48,36 +48,47 @@ User has the ability to save the results file after processing has finished.
 ### For Windows:
 
 #### Create a virtual environment
+```sh
 python -m venv venv
-
+```
 #### Activate the virtual environment
+```sh
 venv\Scripts\activate
-
+```
 #### Install dependencies
+```sh
 pip install -r requirements.txt
-
+```
 
 ### For macOS/Linux:
 
 
 #### Create a virtual environment
+```sh
+
 python3 -m venv venv
-
+```
 #### Activate the virtual environment
+```sh
+
 source venv/bin/activate
-
+```
 #### Install dependencies
-pip install -r requirements.txt
+```sh
 
+pip install -r requirements.txt
+```
 
 ### Running the Application
 
 1. Ensure your virtual environment is activated.
 
 2. In the terminal or command prompt, run the Streamlit application using the following command:
+```sh
+
 
 streamlit run main.py
-
+```
 
 3. This command will open a new tab in your default web browser with the Streamlit application running.
 
